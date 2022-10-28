@@ -6,6 +6,7 @@ A simple way to control a discord webhook from the console
 
 ### Prerequisites:
 - cURL
+- C++ compiler
 
 ------------
 
