@@ -16,7 +16,6 @@ int main() {
         std::cout << "> ";
         std::cin >> content;
         stringRequest = "curl -d \"username=" + name + "&avatar_url=" + avatar + "&content=" + content + "\" -X POST " + url;
-        std::cout << "Request: " + stringRequest + "\n";
         system(stringRequest.c_str());
     }
 }
